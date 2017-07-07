@@ -1,3 +1,5 @@
-<div class="meaages">
-  <p><%= message.content %></p>
-</div>
+<% cache message do %>
+  <div class="meaages">
+    <p><%= message.content %></p>
+  </div>
+<% end %>
