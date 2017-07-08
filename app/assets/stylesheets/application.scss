@@ -1,0 +1,13 @@
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#messages {
+  border: solid 1px lightgrey;
+  height: 90%;
+  min-height: 400px;
+  padding: 0.5em;
+}
+.messages {
+
+}

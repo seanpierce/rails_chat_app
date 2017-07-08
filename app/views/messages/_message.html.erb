@@ -1,5 +1,5 @@
 <% cache message do %>
-  <div class="meaages">
-    <p><%= message.content %></p>
+  <div class="messages">
+    <div class="message"><span><%= time_ago_in_words(message.created_at) %> ago</span> - <%= message.content %></div>
   </div>
 <% end %>

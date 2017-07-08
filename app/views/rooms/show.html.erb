@@ -1,10 +1,15 @@
-<h1>Chat App</h1>
+<h3>Join In The Chat</h3>
 
-<div id="messages">
-  <p><%= render @messages %></p>
+<div class="row">
+  <div class="col-sm-3">
+    <form>
+      <label>Say something:</label><br>
+      <input type="text" data-behavior="room_speaker">
+    </form>
+  </div>
+  <div class="col-sm-9">
+    <div id="messages">
+      <p><%= render @messages %></p>
+    </div>
+  </div>
 </div>
-
-<form>
-  <label>Say something:</label><br>
-  <input type="text" data-behavior="room_speaker">
-</form>
