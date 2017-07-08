@@ -5,9 +5,10 @@
 #messages {
   border: solid 1px lightgrey;
   height: 90%;
-  min-height: 400px;
+  height: 400px;
+  overflow: scroll;
   padding: 0.5em;
 }
 .messages {
-
+  line-height: 1em;
 }
