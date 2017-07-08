@@ -1,24 +1,33 @@
-# README
+# Join in the Chat
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Join in the Chat is a simple <a href="http://rubyonrails.org/">ruby on rails</a> application that utilizes <a href="https://github.com/rails/rails/tree/master/actioncable">action cables</a> to handle multiple connection instances. Messages are instantly rendered to the users asynchronously. Users can connect to the application from anywhere and engage in the conversation.
 
-Things you may want to cover:
+![](public/joininthechat.gif)
 
-* Ruby version
+### Dependencies
+* <a href="https://www.postgresql.org/">postgresql</a>
+* <a href="https://www.ruby-lang.org/en/">ruby</a> 2.4.1 or greater
+* <a href="http://rubyonrails.org/">rails</a> 5.1.2 or greater
+* <a href="https://bundler.io/">bundler</a>
 
-* System dependencies
 
-* Configuration
+### Installation
+````
+$ postgres
+$ git clone https://github.com/seanpierce/rails_chat_app
+$ cd rails_chat_app
+$ bundle
+$ rails db:create
+$ rails db:migrate
+$ rails s
+````
+Visit <a href="http://localhost:3000/">localhost:3000</a>
 
-* Database creation
+### Author
+Sean Pierce
 
-* Database initialization
+### Contact
+sumler.sean@gmail.com
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### License
+MIT, &copy; Sean Pierce 2017
