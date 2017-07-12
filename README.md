@@ -17,8 +17,7 @@ $ postgres
 $ git clone https://github.com/seanpierce/rails_chat_app
 $ cd rails_chat_app
 $ bundle
-$ rails db:create
-$ rails db:migrate
+$ rails db:setup
 $ rails s
 ````
 Visit <a href="http://localhost:3000/">localhost:3000</a>
